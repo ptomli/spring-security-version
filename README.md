@@ -31,10 +31,10 @@ Enter `spring-security-version`
 ```
 
 `spring-security-version` simply declares a `dependencyManagement` entry for
-each Spring Security module, at it's own `project.version`. So,
+each Spring Security module, at its own `project.version`. So,
 `spring-security-version` `3.1.3.RELEASE` will result in any Spring Security
 transitive dependency being imported at `3.1.3.RELEASE`. Done, finished and
-klar!
+klaar!
 
 There are companion projects to handle other SpringSource project versions, such
 as
