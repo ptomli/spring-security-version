@@ -2,7 +2,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.github.ptomli.spring-security-version</groupId>
 	<artifactId>spring-security-version</artifactId>
-	<version>3.1.3.RELEASE</version>
+	<version>3.1.4.RELEASE-SNAPSHOT</version>
 	<packaging>pom</packaging>
 
 	<name>Spring Security Version</name>
@@ -20,7 +20,7 @@
 		<url>http://github.com/ptomli/spring-security-version</url>
 		<connection>scm:git:git://github.com/ptomli/spring-security-version.git</connection>
 		<developerConnection>scm:git:git@github.com:ptomli/spring-security-version.git</developerConnection>
-	  <tag>v3.1.3.RELEASE</tag>
+	  <tag>HEAD</tag>
   </scm>
 
 	<issueManagement>
