@@ -4,7 +4,7 @@ If you've ever created a moderately complex project which uses Spring, you've
 likely come across issues having to manage versions of Spring transitive
 dependencies.
 
-Your project uses Spring Security 3.1.3.RELEASE, but something else you're
+Your project uses Spring Security 3.1.4.RELEASE, but something else you're
 depending on imports some otherwise unused Spring Security module, at
 3.0.8.RELEASE.
 
@@ -21,7 +21,7 @@ Enter `spring-security-version`
       <dependency>
         <groupId>com.github.ptomli.spring-security-version</groupId>
         <artifactId>spring-security-version</artifactId>
-        <version>3.1.3.RELEASE</version>
+        <version>3.1.4.RELEASE</version>
         <type>pom</type>
         <scope>import</scope>
       </dependency>
@@ -32,8 +32,8 @@ Enter `spring-security-version`
 
 `spring-security-version` simply declares a `dependencyManagement` entry for
 each Spring Security module, at its own `project.version`. So,
-`spring-security-version` `3.1.3.RELEASE` will result in any Spring Security
-transitive dependency being imported at `3.1.3.RELEASE`. Done, finished and
+`spring-security-version` `3.1.4.RELEASE` will result in any Spring Security
+transitive dependency being imported at `3.1.4.RELEASE`. Done, finished and
 klaar!
 
 There are companion projects to handle other SpringSource project versions, such
